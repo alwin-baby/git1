@@ -1,34 +1,59 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
+
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <meta name = "description" content = "The movies I have watched and those that I have listed for later">
+
+    <title>My Movie Watchlist App</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
+    <div id="blank_top"></div>
+
+    <div class="top_group">
+
+    <img src="images/logo.png" alt="logo">
+
+    <h1 id="heading">My Movie Watchlist App</h1>
+
+    </div>
+
+    <form name="form" class="form" method="POST">
+
+        <table>
+            <tr>
+                <td id="Movie_name">Movie Name</td>
+                <td><input type="text" name="movieName" required></td>
+            </tr>
+            
+            <tr>
+                <td>Watched </td>
+                <td><input type="checkbox"></td>
+            </tr>
     
-    <header>
+            <tr>
+                <td colspan="2"><input type="submit" name="submit" value="Submit" onclick="submitValidation(); return false "></td>
+            </tr>
+        </table>
 
-        <a href="index.html">
-            Home
-        </a>
+    </form>
 
-        &nbsp; &nbsp;
+    <div class="video_div">
 
-        <a href="about.html">
-            About
-        </a>
+    <video controls id="video" poster="videos/thumbnail.jpg">
+        <source src="videos/Avatar_ The Way of Water _ Official Teaser Trailer.mp4">
+    </video>
+    
+    </div>
 
-    </header>
-
-    <h1>
-        Welcome to the website
-    </h1>
-
-    <p>
-        Go through the website to know more
-    </p>
+    <script src="script.js"></script>
 
 </body>
 </html>
