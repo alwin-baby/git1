@@ -1,4 +1,4 @@
 # git1
 Git project 1
 
-This is a simple project for learning purpose
+My movie watchlist app is a simple project to add movies to watchlist and to seggregate watched and unwatched movies. 
