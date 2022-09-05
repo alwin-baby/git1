@@ -1,5 +1,4 @@
 var movieName = document.form.movieName;
-var check = document.form.checkbox;
 
 function submitValidation()
 {
