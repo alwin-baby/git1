@@ -1,0 +1,104 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoImage{
+    display: inline-block;
+}
+
+img{
+    width: 150px;
+}
+
+.logoText{
+    display: inline-block;
+    width: 213px;
+    height: auto;
+    padding-left: 10px;
+    line-height: 37px;
+}
+
+h1{
+    display: inline-block;
+    width: 213px;
+}
+
+.centralizeForm{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.form{
+    width: 340px;
+    line-height: 32px;
+    border: solid black;
+    border-width: 4px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+form{
+    display: inline;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+}
+
+#input > input{
+    height: 22px;
+    border-style: groove;
+    border-radius: 0;
+    border-width: 3px;
+}
+
+#input{
+    padding-left: 10px;
+}
+
+#checkbox{
+    padding-left: 6px;
+}
+
+input[type="checkbox" i]{
+    margin-top: 10px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    border: solid black;
+    width: 348px;
+    height: 50px;
+    border-style: groove;
+    border-radius: 0;
+    border-width: 4px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    transition: 0.5s;
+}
+
+button:hover{
+    color: black;
+    background-color: white;
+}
+
+button:active{
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.8);
+    transform: scale(95%);
+}
+
