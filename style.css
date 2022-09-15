@@ -1,7 +1,10 @@
+/* common  */
 *{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+/* common  */
 
+/* logo container */
 .logo{
     margin-top: 100px;
     margin-bottom: 30px;
@@ -9,15 +12,21 @@
     justify-content: center;
     align-items: center;
 }
+/* logo container */
 
+/* logo image container */
 .logoImage{
     display: inline-block;
 }
+/* logo image container */
 
+/* logo image */
 img{
     width: 150px;
 }
+/* logo image */
 
+/* logo text container */
 .logoText{
     display: inline-block;
     width: 213px;
@@ -25,18 +34,24 @@ img{
     padding-left: 10px;
     line-height: 37px;
 }
+/* logo text container */
 
+/* logo text */
 h1{
     display: inline-block;
     width: 213px;
 }
+/* logo text */
 
+/* div used only for centralising the input part */
 .centralizeForm{
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
 }
+/* div used only for centralising the input part */
 
+/* input part container */
 .form{
     width: 340px;
     line-height: 32px;
@@ -45,27 +60,37 @@ h1{
     padding-top: 30px;
     padding-bottom: 25px;
 }
+/* input part container */
 
+/* input form */
 form{
     display: inline;
 }
+/* input form */
 
+/* table contents aligning*/
 table{
     display: flex;
     justify-content: center;
 }
+/* table contents aligning*/
 
+/* input box styling */
 #input > input{
     height: 22px;
     border-style: groove;
     border-radius: 0;
     border-width: 3px;
 }
+/* input box styling */
 
+/* used for aligning the input box */
 #input{
     padding-left: 10px;
 }
+/* used for aligning the input box */
 
+/* checkbox alignment */
 #checkbox{
     padding-left: 6px;
 }
@@ -73,12 +98,16 @@ table{
 input[type="checkbox" i]{
     margin-top: 10px;
 }
+/* checkbox alignment */
 
+/* button container */
 .button{
     display: flex;
     justify-content: center;
 }
+/* button container */
 
+/* button styling */
 button{
     border: solid black;
     width: 348px;
@@ -91,7 +120,9 @@ button{
     font-size: 17px;
     transition: 0.5s;
 }
+/* button styling */
 
+/* button animations */
 button:hover{
     color: black;
     background-color: white;
@@ -101,16 +132,21 @@ button:active{
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.8);
     transform: scale(95%);
 }
+/* button animations */
 
+/* making the page responsive */
 @media (max-width: 615px){
 
+    /* adjusting the logo container */
     .logo{
         display: flex;
         flex-direction: column ;
         align-content: center;
         margin-top: 150px;
     }
+    /* adjusting the logo container */
 
+    /* aligning and adjusting logo text */
     .logoText{
         padding-left: 0;
         text-align: center;
@@ -119,7 +155,9 @@ button:active{
     h1{
         margin: 0;
     }
+    /* aligning and adjusting logo text */
 
+    /* input area re-adjustment to fit even on 320px wide screen */
     .form{
         display: flex;
         justify-content: center;
@@ -128,21 +166,18 @@ button:active{
         padding-bottom: 15px;
         font-size: 13px;
     }
+    /* input area re-adjustment to fit even on 320px wide screen */
 
-    form{
-        display: flex;
-        justify-content: center;
-    }
-
-    table{
-        width: 240px;
-    }
-
+    /* input box resizing */
     #input > input {
         width: 130px;
     }
+    /* input box resizing */
 
+    /* button resizing */
     button{;
         width: 288px;
     }
+    /* button resizing */
 }
+/* making the page responsive */
